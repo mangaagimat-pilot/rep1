@@ -1,0 +1,5 @@
+permissions:
+  - group_name: data-engineers
+    level: CAN_MANAGE
+  - group_name: data-analysts
+    level: CAN_VIEW

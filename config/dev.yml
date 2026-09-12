@@ -1,0 +1,6 @@
+environment: dev
+catalog: enterprise_dev
+schema: platform_dev
+source_root: /mnt/landing/dev
+checkpoint_root: /mnt/checkpoints/enterprise-data-platform/dev
+retention_days: 30

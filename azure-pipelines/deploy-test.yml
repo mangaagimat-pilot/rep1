@@ -1,0 +1,6 @@
+trigger: none
+pool:
+  vmImage: ubuntu-latest
+steps:
+  - script: databricks bundle deploy -t test
+    displayName: Deploy test bundle

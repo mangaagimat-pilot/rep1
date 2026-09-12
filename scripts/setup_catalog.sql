@@ -1,0 +1,3 @@
+CREATE CATALOG IF NOT EXISTS ${catalog};
+CREATE SCHEMA IF NOT EXISTS ${catalog}.${schema};
+CREATE SCHEMA IF NOT EXISTS ${catalog}.control;

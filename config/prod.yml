@@ -1,0 +1,6 @@
+environment: prod
+catalog: enterprise_prod
+schema: platform
+source_root: /mnt/landing/prod
+checkpoint_root: /mnt/checkpoints/enterprise-data-platform/prod
+retention_days: 90

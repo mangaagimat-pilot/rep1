@@ -1,0 +1,4 @@
+environment: common
+source_root: /mnt/landing
+checkpoint_root: /mnt/checkpoints/enterprise-data-platform
+retention_days: 30

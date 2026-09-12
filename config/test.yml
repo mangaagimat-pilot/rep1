@@ -1,0 +1,6 @@
+environment: test
+catalog: enterprise_test
+schema: platform_test
+source_root: /mnt/landing/test
+checkpoint_root: /mnt/checkpoints/enterprise-data-platform/test
+retention_days: 14

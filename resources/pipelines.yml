@@ -1,0 +1,11 @@
+resources:
+  pipelines:
+    enterprise_medallion_pipeline:
+      name: ${bundle.name}-${bundle.target}-medallion
+      development: ${bundle.target != "prod"}
+      catalog: ${var.catalog}
+      target: ${var.schema}
+      continuous: false
+      libraries:
+        - notebook:
+            path: ../notebooks/ingestion/run_ingestion.py
