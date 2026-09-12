@@ -1,1 +1,40 @@
-databricks_enterprise_project/
+# Databricks local state and generated bundle files
+.databricks/
+
+# Python caches, test output, and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local editor and notebook metadata
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
